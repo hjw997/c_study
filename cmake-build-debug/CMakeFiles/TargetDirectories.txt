@@ -1,0 +1,3 @@
+/Users/whj/CLionProjects/c_study/cmake-build-debug/CMakeFiles/c_study.dir
+/Users/whj/CLionProjects/c_study/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/whj/CLionProjects/c_study/cmake-build-debug/CMakeFiles/rebuild_cache.dir
