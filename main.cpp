@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main() {
+void test01(){
     //0b 开头 二进制.
     int i = 20; //十进制
     int i2 = 0b10100; //二进制 2^4 + 2^2 = 20 二进制转10进制就是挑是1的然后看第几个次方(最低的从0开始).
@@ -26,13 +26,28 @@ int main() {
     int size_a = sizeof a;
     printf("size占=%d 个字节 \n", size);
     printf("size_t=%d \n", size_t);
+}
 
+/**
+ * 变量的内存地址的细知末节.
+ */
+void test02(){
     /**
      * 变量的内存地址:
      * 取出某个变量(内存地址) 也就是这个变量的地址的首字节的内存地址.
      * &变量  &的发音: and @ at  & and
      */
     int a1 = 100;
-    printf("a1的内存地址:%p", &a1);
+    int *address = &a1;
+    printf("address = %p \n",address);
+
+    printf("a1的内存地址:%p \n", &a1);
+
+}
+
+int main() {
+
+    // test01(); //基础语法测试.
+    test02();
     return 0;
 }
