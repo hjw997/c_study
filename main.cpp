@@ -45,9 +45,40 @@ void test02(){
 
 }
 
+void charTest(){
+
+    //字符:
+    int i = 97;
+    char c1 = 'a';
+    char c2 = 'A';
+
+    printf("%c %c %d \n",c1,c2,i);
+
+}
+
+void charTest01(){
+
+    /**
+     * 注意下面这两句是可以的:
+     * 因为字符本质上在内存中就是 一个数值.
+     */
+    int  i = 'a';
+    char c = 97;
+
+}
+
 int main() {
 
     // test01(); //基础语法测试.
-    test02();
+    //test02();
+    charTest();
+
     return 0;
 }
+
+/**
+* C语言参考手册:
+ * https://c-cpp.com/c
+ *
+ *
+*/
