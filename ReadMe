@@ -1,6 +1,17 @@
 
 1.本代码仓库说明:
+
+
 课程是按照 B站 李明杰老师的课程 + 自己的一些学习笔记.
+
+QT 环境 搭建:
+Qt creator 不会检测 qt 的问题和方法 配置.
+https://blog.csdn.net/NickDeCodes/article/details/104232907
+https://www.tiger2doudou.com/doku.php/mac:develop:config_qt_via_brew
+https://www.cnblogs.com/mjios/p/14482571.html
+
+
+
 小码哥MJ 的 C语言学习视频:
 https://www.bilibili.com/video/BV1g7411F7Bn?p=1
 
