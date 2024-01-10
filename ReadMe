@@ -1,0 +1,30 @@
+
+1.本代码仓库说明:
+课程是按照 B站 李明杰老师的课程 + 自己的一些学习笔记.
+小码哥MJ 的 C语言学习视频:
+https://www.bilibili.com/video/BV1g7411F7Bn?p=1
+
+2.课程可以参考的资料有:
+C语言参考手册:
+https://c-cpp.com/c
+
+3.本课程开发工具结合了 CLion 和 Qt Creator 来做开发调试工具.
+
+4.学习过 java 的朋友可能知道 每个java 文件可以有 一个main方法,或者单元测试功能 ✅✅
+该代码仓库借鉴了java的这种思想.网上搜到如下的配置.这样几乎每个文件都可以有自己的main方法,方便在一个项目系统的学习.
+
+1.这一篇是教你怎么手动配置 : https://blog.csdn.net/qq_43208820/article/details/133722692
+
+2.这一篇说了如何使用CLion 的插件: https://blog.csdn.net/qq_41688840/article/details/121716030
+  结合CLion 的 Enable Auto-Reload . 可以在配置的 CMake中设置.
+  有两个推荐的插件:
+
+3.这篇也是相关的配置:
+https://blog.csdn.net/qq_36769368/article/details/104266525
+
+
+
+
+
+
+

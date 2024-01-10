@@ -1,4 +1,16 @@
+//
+// Created by whj on 2024/1/10.
+//
 #include <iostream>
+
+void test01();
+
+int main(){
+
+    test01();
+
+    return  0 ;
+}
 
 void test01(){
     //0b 开头 二进制.
@@ -27,58 +39,3 @@ void test01(){
     printf("size占=%d 个字节 \n", size);
     printf("size_t=%d \n", size_t);
 }
-
-/**
- * 变量的内存地址的细知末节.
- */
-void test02(){
-    /**
-     * 变量的内存地址:
-     * 取出某个变量(内存地址) 也就是这个变量的地址的首字节的内存地址.
-     * &变量  &的发音: and @ at  & and
-     */
-    int a1 = 100;
-    int *address = &a1;
-    printf("address = %p \n",address);
-
-    printf("a1的内存地址:%p \n", &a1);
-
-}
-
-void charTest(){
-
-    //字符:
-    int i = 97;
-    char c1 = 'a';
-    char c2 = 'A';
-
-    printf("%c %c %d \n",c1,c2,i);
-
-}
-
-void charTest01(){
-
-    /**
-     * 注意下面这两句是可以的:
-     * 因为字符本质上在内存中就是 一个数值.
-     */
-    int  i = 'a';
-    char c = 97;
-
-}
-
-int main() {
-
-    // test01(); //基础语法测试.
-    //test02();
-    charTest();
-
-    return 0;
-}
-
-/**
-* C语言参考手册:
- * https://c-cpp.com/c
- *
- *
-*/
