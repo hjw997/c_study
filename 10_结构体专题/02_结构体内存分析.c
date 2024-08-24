@@ -126,4 +126,8 @@ int main() {
  * 结构体占用实际大小要考虑内存对齐
  *
  * 内置数据类型的对齐规则:自身的整数倍
+ *
+ * 关于内存对齐文章:
+ * https://blog.csdn.net/weixin_49199646/article/details/111160444
+ * https://www.cnblogs.com/hyacinthLJP/p/16041690.html
 */
